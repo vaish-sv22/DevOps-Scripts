@@ -1,3 +1,37 @@
+# 🚀 DevOps Setup Automation Scripts
+
+This repository contains Bash scripts to automate the installation and configuration of Docker, Kubernetes (`kubectl`), and Minikube on a Linux-based system (Amazon Linux/CentOS/RHEL). These scripts simplify the process of setting up a local Kubernetes environment for development and learning.
+
+## 📌 Features
+
+- Automated Docker installation
+- Automatic Docker service configuration
+- Installation of Kubernetes CLI (`kubectl`)
+- Installation of Minikube
+- Installation of required dependencies
+- Automatic Minikube cluster setup
+- Commands to verify the Kubernetes cluster
+
+## 🛠️ Prerequisites
+
+- Linux system (Amazon Linux, CentOS, or RHEL)
+- Sudo privileges
+- Internet connection
+
+## ▶️ Usage
+
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Make the script executable:
+
+bash
+chmod +x minikube.sh
+
+4. Run the script:
+
+bash
+./minikube.sh
+
 ## 📜 Script Commands and Their Purpose
 
 | Command | Purpose |
