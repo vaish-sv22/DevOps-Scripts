@@ -23,14 +23,11 @@ This repository contains Bash scripts to automate the installation and configura
 1. Clone the repository.
 2. Navigate to the project directory.
 3. Make the script executable:
-
-bash
-chmod +x minikube.sh
-
+   bash
+   chmod +x minikube.sh
 4. Run the script:
-
-bash
-./minikube.sh
+   bash
+   ./minikube.sh
 
 ## 📜 Script Commands and Their Purpose
 
