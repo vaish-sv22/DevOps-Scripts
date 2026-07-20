@@ -23,15 +23,15 @@ This repository contains Bash scripts to automate the installation and configura
 1. Clone the repository.
 2. Navigate to the project directory.
 3. Make the script executable:
-   bash
+   bash(shell)--
    chmod +x minikube.sh
 4. Run the script:
-   bash
+   bash(shell)--
    ./minikube.sh
 
 ## 📜 Script Commands and Their Purpose
 
-| Command | Purpose |
+| Commands | Purposes |
 |---------|---------|
 | `sudo yum install -y docker` | Installs Docker. |
 | `sudo systemctl start docker.service` | Starts the Docker service. |
